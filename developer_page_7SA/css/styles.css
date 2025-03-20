@@ -139,3 +139,13 @@ body{
         width: auto;
     }
  }
+
+ /* Seccion de servicios */
+ @media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        /*define el area de las columnas*/
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+ }
